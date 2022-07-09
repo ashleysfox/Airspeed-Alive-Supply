@@ -1,0 +1,80 @@
+:root {
+    --main-font-family: 'Averia Serif Libre', cursive;
+    --body-font-family: 'Raleway', sans-serif;
+    --primary-color: #d28358;
+    --secondary-color: #363732;
+    --light-color: #FBF8F3;
+  }
+
+body {
+    background-color: var(--light-color);
+}
+
+h1, h2, h3, h4, h5, a, .navbar-brand {
+    font-family: var(--main-font-family);
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+h1, h3, a, .navbar-brand {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 108px;
+    line-height: 89px;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 89px;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+}
+
+h3 {
+    font-size: 46px;
+}
+
+h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    color: var(--primary-color);
+}
+
+p {
+    font-family: var(--body-font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+i {
+    color: var(--primary-color);
+}
+
+header {
+    background-image: url("/images/GrainOrange.png");
+    background-size: cover;
+    padding: 90px;
+}
+
+header a {
+    color: var(--light-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .1em;
+    background-color: var(--secondary-color);
+    padding: 13px 16px;
+    border-radius: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
+.slash h5 {
+    line-height: 2;
+}
