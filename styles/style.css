@@ -75,6 +75,27 @@ a:hover {
     color: var(--primary-color);
 }
 
+.footer-menu {
+    font-family: var(--main-font-family);
+    font-weight: 700;
+    color: var(--secondary-color);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.footer-insta {
+    font-size: 35px;
+    padding-top: 17px;
+}
+
 .slash h5 {
     line-height: 2;
+}
+
+.birthday, .gallery {
+    padding-top: 90px;
+}
+
+.product-images {
+    margin: 0 5rem;
 }
