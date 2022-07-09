@@ -188,10 +188,6 @@ a:hover {
         padding-right: 20px;
     }
 
-    .flower-bottom {
-        display: none;
-    }
-
     .slash {
         display: none;
     }
@@ -214,6 +210,8 @@ a:hover {
         padding-top: 30px;
         padding-bottom: 30px;
     }
-
+    .flower-bottom {
+        display: none;
+    }
 
 }
