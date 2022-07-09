@@ -3,24 +3,25 @@
     --body-font-family: 'Raleway', sans-serif;
     --primary-color: #d28358;
     --secondary-color: #363732;
-    --light-color: #FBF8F3;
+    --light-color: #f4efe7;
   }
 
 body {
     background-color: var(--light-color);
 }
 
-h1, h2, h3, h4, h5, a, .navbar-brand {
+h1, h2, h3, h4, h5, a, .navbar-brand, .submit-btn {
     font-family: var(--main-font-family);
     font-weight: 700;
     color: var(--secondary-color);
 }
 
-h1, h3, a, .navbar-brand {
+h1, h3, a, .navbar-brand, .submit-btn {
     font-style: italic;
 }
 
 h1 {
+    padding-top: 50px;
     font-size: 108px;
     line-height: 89px;
 }
@@ -46,12 +47,17 @@ h4 {
 p {
     font-family: var(--body-font-family);
     font-weight: 500;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 30px;
 }
 
 i {
     color: var(--primary-color);
+    font-size: 24px;
+}
+
+nav .fa-instagram {
+    margin-left: 35px;
 }
 
 header {
@@ -67,12 +73,17 @@ header a {
     letter-spacing: .1em;
     background-color: var(--secondary-color);
     padding: 13px 16px;
-    border-radius: 30px;
+    border-radius: 6px;
 }
 
 a:hover {
     text-decoration: underline;
     color: var(--primary-color);
+}
+
+.form-control {
+    border: var(--primary-color) solid 2px;
+    background-color: var(--light-color);
 }
 
 .footer-menu {
@@ -92,10 +103,109 @@ a:hover {
     line-height: 2;
 }
 
-.birthday, .gallery {
+.birthday, .gallery, .story-section {
     padding-top: 90px;
 }
 
 .product-images {
     margin: 0 5rem;
+}
+
+.story-paragraph {
+    background-image: url("/images/GrainOrange.png");
+    background-repeat: no-repeat;
+  background-size: cover;
+    padding: 50px;
+}
+
+.story-img {
+    background-image: url(/images/VintagePlanes1.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.signup {
+    background-image: url(/images/DarkBKG.png);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+
+.signup h3 {
+    color: var(--light-color);
+}
+
+.signup h4 {
+    text-transform: none;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+    font-size: 24px;
+}
+
+.submit-btn {
+    color: var(--light-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .1em;
+    background-color: var(--primary-color);
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+.submit-btn:hover {
+    background-color: var(--light-color);
+}
+
+@media (max-width: 1030px){
+    h1 {
+        font-size: 89px;
+        line-height: 79px;
+        padding-top: 5px;
+    }
+
+    h2 {
+        font-size: 18px;
+        letter-spacing: .1em;
+    }
+
+    .product-images img {
+        margin-bottom: 20px;
+    }
+
+    .birthday p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .flower-bottom {
+        display: none;
+    }
+
+    .slash {
+        display: none;
+    }
+
+    nav .fa-instagram {
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width: 497px) {
+    h1 {
+        font-size: 79px;
+        line-height: 69px;
+    }
+
+    h2 {
+        font-size: 22px;
+        line-height: 24px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
 }
