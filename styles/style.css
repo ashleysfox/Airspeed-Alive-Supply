@@ -111,6 +111,14 @@ a:hover {
     margin: 0 5rem;
 }
 
+.plane-img {
+    background-image: url(/images/VintagePlane2.png);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+}
+
 .story-paragraph {
     background-image: url("/images/GrainOrange.png");
     background-repeat: no-repeat;
