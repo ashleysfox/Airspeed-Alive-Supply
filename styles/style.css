@@ -215,3 +215,27 @@ a:hover {
     }
 
 }
+
+/**Product Page**/
+.preview-img {
+    height: 350px;
+    float: right;
+}
+
+.preview-text, .preview-text-2 {
+    padding-top: 45px;
+}
+
+.preview-img-2 {
+    height: 350px;
+}
+
+.preview-text-2 {
+    text-align: right;
+}
+
+.header {
+    background-image: url("/images/shirtsonhanger.jpg");
+    background-size: cover;
+    padding: 90px;
+}
