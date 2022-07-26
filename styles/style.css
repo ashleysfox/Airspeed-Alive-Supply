@@ -66,7 +66,7 @@ header {
     padding: 90px;
 }
 
-header a {
+header a, .button-style {
     color: var(--light-color);
     text-transform: uppercase;
     text-decoration: none;
@@ -239,3 +239,44 @@ a:hover {
     background-size: cover;
     padding: 90px;
 }
+
+.header h1, .header h2 {
+    color: var(--light-color);
+}
+
+.header a {
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .1em;
+    background-color: var(--light-color);
+    padding: 13px 16px;
+    border-radius: 6px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    border: var(--secondary-color) solid 1px;
+    transition: all .5s;
+    margin: 5px;
+  }
+
+  .dot:hover {
+      opacity: 50%;
+  }
+
+  .dot-1 {
+    background-color: black;
+  }
+
+  .dot-2 {
+    background-color: white;
+  }
